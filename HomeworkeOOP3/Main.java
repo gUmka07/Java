@@ -8,7 +8,7 @@ public class Main {
         figures.addFigure(new Circle(10));
 
         figures.showAll();
-        System.out.println("_______________________________________________________\n");
+        System.out.println("=================================================================\n");
         System.out.println("Удалим последнюю фигуру, заменим фигуру круг с радиусом 10 на " +
                 "круг с радиусом 15, отсортируем фигуры по площади:");
         figures.removeFigure(2);
